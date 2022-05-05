@@ -14,7 +14,6 @@ header {
 
 .container {
     width: 1366px;
-    height: 132px;
     margin: 0 auto;
     padding-top: 1px;
 }
@@ -122,4 +121,62 @@ header {
 
 .leasing-carousel__img:first-child {
     width: 327px;
+}
+
+.work {
+    
+}
+
+.work-wrapper__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-top: 80px;
+    color: #1A78A6;
+    text-align: center;
+}
+
+.work-wrapper__descr {
+    width: 904px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #414141;
+    text-align: center;
+}
+
+.work-wrapper__subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-top: 60px;
+    color: #1A78A6;
+    text-align: center;
+}
+
+.work-wrapper__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.work-wrapper__block-get {
+    width: 651px;
+    height: 160px;
+    margin: 58px 30px 58px 33px;
+    background-color: #EAF3F8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work-wrapper__block-descr {
+    width: 481px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
 }
