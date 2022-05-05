@@ -92,6 +92,14 @@ header {
     border: none;
 }
 
+.leasing-wrapper__btn:hover {
+    cursor: pointer;
+}
+
+.leasing-wrapper__btn:active {
+    background-color: #1a77a6d4;
+}
+
 .leasing-wrapper__btn-primary {
     display: flex;
     align-items: center;
