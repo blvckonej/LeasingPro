@@ -311,3 +311,71 @@ header {
     font-weight: 600;
     color: #ffffff;
 }
+
+.document-block__option {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.document-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #1A78A6;
+    margin-top: 100px;
+}
+
+.document-block__requirements {
+    width: 462px;
+}
+
+.document-block__title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1795D3;
+}
+
+.document-block__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #414141;
+    margin-top: 20px;
+}
+
+.document-block__docs {
+    display: flex;
+    flex-direction: column;
+}
+
+.document-block__docs-card {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 231px;
+}
+
+.document-block__docs-card:nth-child(1) {
+    margin-top: 0;
+}
+
+.document-block__docs-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 15px;
+    background-color: #E3F8F9;
+}
+
+.document-block__docs-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 20px;
+}
