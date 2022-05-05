@@ -8,12 +8,17 @@
     margin: 0;
 }
 
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #EAF3F8;
 }
 
 .container {
-    width: 1366px;
+    max-width: 1366px;
     margin: 0 auto;
     padding-top: 1px;
 }
@@ -22,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 24px;    
+    height: 132px;    
 }
 
 .header-content__link {
@@ -70,14 +75,16 @@ header {
 }
 
 .leasing-wrapper__title {
+    font-size: 40px;
     font-weight: 700;
     font-size: 35px;
     color: #1795D3;
 }
 
 .leasing-wrapper__descr {
-    font-weight: 300;
-    font-size: 23px;
+    width: 490px;
+    font-weight: 400;
+    font-size: 30px;
     color: #1A78A6;
     margin-top: 25px;
 }
@@ -166,7 +173,6 @@ header {
 .work-wrapper__block-get {
     width: 651px;
     height: 160px;
-    margin: 58px 30px 58px 33px;
     background-color: #EAF3F8;
     border-radius: 20px;
     display: flex;
