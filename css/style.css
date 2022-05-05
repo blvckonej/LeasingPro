@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #EAF3F8;
+}
+
+.container {
+    width: 1366px;
+    height: 132px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;    
+}
+
+.header-content__link {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #1A78A6;
+    margin-right: 78px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-content__link:nth-child(3) {
+    margin-right: 0;
+}
+
+.header-content__connection {
+    width: 185px;
+    height: 40px;
+    background-color: #04B3B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.header-content__descr {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 12px;
+}
+
+.leasing {
+    min-height: 524px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leasing-wrapper {
+    width: 558px;
+    margin: 107px 19px 108px 0;
+}
+
+.leasing-wrapper__title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #1795D3;
+}
+
+.leasing-wrapper__descr {
+    font-weight: 300;
+    font-size: 23px;
+    color: #1A78A6;
+    margin-top: 25px;
+}
+
+.leasing-wrapper__arrow {
+    width: 237px;
+    height: 54px;
+    background-color: #1A78A6;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 14.5px 10px 14.5px 20px;
+}
+
+.leasing-carousel {
+    width: 742px;
+}
+
+.leasing-carousel__img {
+    width: 134px;
+    height: 444px;
+    border-radius: 10px;
+}
+
+.leasing-carousel__img:first-child {
+    width: 327px;
+}
