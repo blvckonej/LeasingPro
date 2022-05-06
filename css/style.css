@@ -379,3 +379,51 @@ header {
     color: #000000;
     margin-left: 20px;
 }
+
+.company-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #1A78A6;
+    margin-top: 100px;
+}
+
+.company-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.company-block__square {
+    height: 228px;
+    width: 327px;
+    background-color: #EAF3F8;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.company-block__square-title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #1A78A6;
+    margin-left: 20px;
+}
+
+.company-block__square-descr {
+    width: 286px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.company-block__square-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
