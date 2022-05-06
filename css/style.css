@@ -130,10 +130,6 @@ header {
     width: 327px;
 }
 
-.work {
-    
-}
-
 .work-wrapper__title {
     font-size: 30px;
     font-weight: 700;
@@ -429,6 +425,10 @@ header {
     right: 0;
 }
 
+.registration {
+    position: relative;            
+}
+
 .registration-block {
     margin-top: 140px;
     width: 904px;
@@ -436,6 +436,7 @@ header {
     background-color: #EAF3F8;
     border-radius: 20px;
     padding-top: 70px;
+    z-index: 1000;    
 }
 
 .registration-block__title {
@@ -517,4 +518,115 @@ header {
     font-size: 12px;
     line-height: 16px;
     color: #1795D3;
+}
+
+.manager {
+    width: 1490px;
+    height: 650px;
+    background-color: #1A78A6;
+    position: absolute;
+    top: 34px;
+    left: 49px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -1;
+}
+
+.manager-block {
+    margin-left: 900px;
+    margin-top: 70px;
+    width: 500px;
+}
+
+.manager-block__profile {
+    display: flex;
+    align-items: center;
+}
+
+.manager-block__profile-name {
+    margin-left: 20px;
+}
+
+
+.manager-block__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.manager-block__descr {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.manager-block__connection-card {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.manager-block__connection-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #589DBF;
+    border-top-left-radius: 15px;
+}
+
+.manager-block__connection-descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.color-block {
+    position: relative;
+    width: 100%;
+    height: 104px;
+    box-shadow: 0px -100px 0px 80px #1795D3;
+    color: #1795D3;
+    background-color: #1795D3;        
+    z-index: -100;
+}
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    background-color: #1795D3;
+}
+
+.footer-block {
+    display: flex;
+    border-top: 2px solid #56B2DE;
+}
+
+.footer-block__img {
+    margin-top: 25px;
+}
+
+.footer-block__descr {
+    margin-top: 52px;
+    margin-left: 30px;    
+}
+
+.footer-block__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.footer-block__option {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
 }
