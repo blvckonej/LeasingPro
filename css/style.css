@@ -248,12 +248,12 @@ header {
 .condition-wrapper__form {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     width: 442px;
     margin-left: 151px;
 }
 
 .condition-wrapper__form-title {
+    margin-top: 50px;
     font-weight: 600;
     font-size: 25px;
     line-height: 34px;
@@ -279,6 +279,7 @@ header {
 }
 
 .condition-wrapper__personal {
+    margin-top: 15px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
