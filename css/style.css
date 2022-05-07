@@ -19,9 +19,10 @@ header {
 }
 
 .main {
-    overflow:hidden;
-    overflow-y:hidden;
-    overflow-x:hidden;
+    position: relative;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .container {
@@ -153,7 +154,7 @@ header {
 }
 
 .leasing-wrapper {
-    width: 558px;
+    width: 450px;
     margin: 107px 19px 108px 0;
 }
 
@@ -244,7 +245,6 @@ header {
 
 .work-wrapper__blocks {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -254,9 +254,14 @@ header {
     height: 160px;
     background-color: #EAF3F8;
     border-radius: 20px;
+    margin-right: 64px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.work-wrapper__block-get:nth-child(2) {
+    margin-right: 0;
 }
 
 .work-wrapper__block-descr {
@@ -472,7 +477,6 @@ header {
 .company-block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 50px;
 }
 
@@ -484,7 +488,12 @@ header {
     border-radius: 15px;
     position: relative;
     padding-top: 20px;
+    margin-right: 18px;
     margin-bottom: 15px;
+}
+
+.company-block__square:nth-child(4) {
+    margin-right: 0;
 }
 
 .company-block__square-title {
@@ -512,7 +521,8 @@ header {
 }
 
 .registration {
-    position: relative;            
+    position: relative;
+    margin-bottom: 24px;           
 }
 
 .registration-block {
@@ -610,15 +620,13 @@ header {
 }
 
 .manager {
-    width: 94vw;
+    width: 100vw;
     height: 650px;
     background-color: #1A78A6;
     position: absolute;
     top: 34px;
     left: 49px;
     border-radius: 20px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     z-index: -1;
 }
 
@@ -634,11 +642,13 @@ header {
 }
 
 .manager-block__profile-name {
+    display: block;
     margin-left: 20px;
 }
 
 
 .manager-block__title {
+    display: block;
     font-size: 25px;
     font-weight: 700;
     line-height: 34px;
@@ -646,6 +656,7 @@ header {
 }
 
 .manager-block__descr {
+    display: block;
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
@@ -679,8 +690,8 @@ header {
 .color-block {
     position: relative;
     width: 100%;
-    height: 104px;
-    box-shadow: 0px -100px 0px 80px #1795D3;
+    height: 90px;
+    box-shadow: 0px -100px 0px 100px #1795D3;
     color: #1795D3;
     background-color: #1795D3;        
     z-index: -100;

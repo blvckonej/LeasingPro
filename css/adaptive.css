@@ -4,7 +4,109 @@
   .container {
     padding: 15px;
   }
+
+  .manager {
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .manager-block__profile {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .manager-block__profile-name {
+    margin-left: 0;
+  }
+
+  .work-wrapper__block-get {
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+
+  .company-block {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 700px;
+    justify-content: center;
+    justify-items: center;    
+  }
+
+  .company-block__square:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .color-block {
+  }
 }
+
+@media only screen and (max-width: 1320px) {
+  .leasing {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .leasing-wrapper {
+    width: 800px;
+    margin: 50px auto;
+  }
+
+  .leasing-wrapper__descr {
+    width: 800px;
+  }
+
+  .leasing-slider {
+  }
+
+  .manager {
+    width: 96vw;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .condition-wrapper__block {
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .condition-wrapper__main {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .condition-wrapper__block-card {
+    text-align: center;
+    margin: 0;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+  .condition-wrapper__block-card:nth-child(4) {
+    margin-right: 0;
+  }
+
+  .condition-wrapper__block-img  {
+    margin: 0 auto;
+  }
+
+  .condition-wrapper__form {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .condition-wrapper__btn {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .color-block {
+    position: relative;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
     /* */
   }
