@@ -16,6 +16,9 @@ h1, h2, h3, h4, p {
 header {
     background-color: #EAF3F8;
 }
+.main {
+    overflow: hidden;
+}
 
 .container {
     max-width: 1366px;
@@ -67,6 +70,67 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.leasing-slider {
+    width: 800px;
+    height: 444px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leasing-slider-item {
+    width: 134px;
+    border-radius: 10px;
+    position: relative;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.leasing-slider-item.item-1 {
+    background-image: url(/img/tractor.png);
+}
+
+.leasing-slider-item.item-2 {
+    background-image: url(/img/icon/gruz.png);
+}
+
+.leasing-slider-item.item-3 {
+    background-image: url(/img/icon/disk.png);
+}
+
+.leasing-slider-item.item-4 {
+    background-image: url(/img/icon/auto.png);
+}
+
+.leasing-slider-item.active {
+    width: 327px;
+}
+
+.leasing-slider__desc {    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;    
+}
+
+.leasing-slider__desc p {    
+    min-width: 140px;
+    min-height: 29px;
+    text-align: center;
+    display: none;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #04B3B8;
+}
+
+.leasing-slider-item.active p {
+    display: block;
 }
 
 .leasing-wrapper {
