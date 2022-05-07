@@ -81,11 +81,14 @@ header {
     border-radius: 10px;
     position: relative;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.5s;    
 }
 
 .leasing-slider-item.item-1 {
     background-image: url(../img/tractor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .leasing-slider-item.item-2 {
@@ -94,10 +97,16 @@ header {
 
 .leasing-slider-item.item-3 {
     background-image: url(../img/icon/disk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .leasing-slider-item.item-4 {
     background-image: url(../img/icon/auto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .leasing-slider-item.active {
