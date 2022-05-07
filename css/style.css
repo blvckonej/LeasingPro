@@ -388,17 +388,20 @@ header {
 
 .company-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
 }
 
 .company-block__square {
     height: 228px;
-    width: 327px;
+    max-width: 327px;
+    width: 100%;
     background-color: #EAF3F8;
     border-radius: 15px;
     position: relative;
     padding-top: 20px;
+    margin-bottom: 15px;
 }
 
 .company-block__square-title {
@@ -431,12 +434,13 @@ header {
 
 .registration-block {
     margin-top: 140px;
-    width: 904px;
+    max-width: 904px;
+    width: 100%;
     height: 650px;
     background-color: #EAF3F8;
     border-radius: 20px;
     padding-top: 70px;
-    z-index: 1000;    
+    z-index: 1000;
 }
 
 .registration-block__title {
@@ -448,13 +452,15 @@ header {
 }
 
 .registration-block__form {
-    width: 672px;
+    max-width: 672px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 47px;
 }
 
 .registration-block__input {
-    width: 672px;
+    max-width: 672px;
+    width: 100%;
     height: 56px;
     border: none;
     border-radius: 10px;
