@@ -16,9 +16,6 @@ h1, h2, h3, h4, p {
 header {
     background-color: #EAF3F8;
 }
-.main {
-    overflow: hidden;
-}
 
 .container {
     max-width: 1366px;
