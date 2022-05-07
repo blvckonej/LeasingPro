@@ -85,19 +85,19 @@ header {
 }
 
 .leasing-slider-item.item-1 {
-    background-image: url(/img/tractor.png);
+    background-image: url(../img/tractor.png);
 }
 
 .leasing-slider-item.item-2 {
-    background-image: url(/img/icon/gruz.png);
+    background-image: url(../img/icon/gruz.png);
 }
 
 .leasing-slider-item.item-3 {
-    background-image: url(/img/icon/disk.png);
+    background-image: url(../img/icon/disk.png);
 }
 
 .leasing-slider-item.item-4 {
-    background-image: url(/img/icon/auto.png);
+    background-image: url(../img/icon/auto.png);
 }
 
 .leasing-slider-item.active {
