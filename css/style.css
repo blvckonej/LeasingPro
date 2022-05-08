@@ -31,9 +31,13 @@ header {
     padding-top: 1px;
 }
 
+.header-content__burger {
+    display: none;
+}
+
 .header-content {
     display: flex;
-    align-items: center;
+    align-items: center;  
     justify-content: space-between;
     height: 132px;    
 }
@@ -48,7 +52,7 @@ header {
 }
 
 .header-content__link:nth-child(3) {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .header-content__connection {
@@ -67,6 +71,10 @@ header {
     font-size: 20px;
     color: #ffffff;
     margin-left: 12px;
+}
+
+.header-content__burger-menu {
+    display: none;
 }
 
 .leasing {
