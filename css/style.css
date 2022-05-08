@@ -21,8 +21,8 @@ header {
 .main {
     position: relative;
     overflow: hidden;
-    overflow-y: hidden;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container {
@@ -78,7 +78,7 @@ header {
 }
 
 .leasing-slider {
-    width: 800px;
+    max-width: 800px;
     height: 444px;
     display: flex;
     justify-content: space-between;
@@ -214,6 +214,7 @@ header {
     width: 327px;
 }
 
+
 .work-wrapper__title {
     font-size: 30px;
     font-weight: 700;
@@ -224,7 +225,7 @@ header {
 }
 
 .work-wrapper__descr {
-    width: 904px;
+    max-width: 904px;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -451,8 +452,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     border-top-left-radius: 15px;
     background-color: #E3F8F9;
 }
@@ -529,7 +530,7 @@ header {
     margin-top: 140px;
     max-width: 904px;
     width: 100%;
-    height: 650px;
+    min-height: 650px;
     background-color: #EAF3F8;
     border-radius: 20px;
     padding-top: 70px;
@@ -628,12 +629,13 @@ header {
     left: 49px;
     border-radius: 20px;
     z-index: -1;
+    overflow: hidden;
 }
 
 .manager-block {
     margin-left: 900px;
     margin-top: 70px;
-    width: 500px;
+    width: 500px;    
 }
 
 .manager-block__profile {
