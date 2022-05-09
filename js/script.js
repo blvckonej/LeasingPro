@@ -2,6 +2,8 @@ $('.leasing-slider-item').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active');
 })
 
+
+
 const menuBtn = document.querySelector('.header-content__burger');
 const menuContent = document.querySelector('.header-content__burger-menu');
 
@@ -24,6 +26,12 @@ menuBtn.addEventListener('click', () => {
 })
 
 
+$('#image').click(function() {
+    $('#foo').css({
+        'filter': 'blur(10px)'        
+    });
+});
+
 
 $(window).resize(function () {
     if ($(window).width() < 768) {
@@ -32,7 +40,6 @@ $(window).resize(function () {
                 items: 2,
                 stagePadding: 50,
                 responsive: {
-                    // breakpoint from 480 up
                     375: {
                         items: 1,
                         stagePadding: 30,
@@ -45,5 +52,7 @@ $(window).resize(function () {
 
             });
         });;
+    } else {
+        $(".owl-carousel").trigger('destroy.owl.carousel')
     }
 });
