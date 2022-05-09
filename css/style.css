@@ -31,6 +31,10 @@ header {
     padding-top: 1px;
 }
 
+.leasing.owl-carousel {
+    display: none;
+}
+
 .header-content__burger {
     display: none;
 }
