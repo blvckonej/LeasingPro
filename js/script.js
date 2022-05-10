@@ -6,15 +6,15 @@ $('.leasing-slider-item').on('click', function () {
 
 const menuBtn = document.querySelector('.header-content__burger');
 const menuContent = document.querySelector('.header-content__burger-menu');
+const overlay = document.querySelector('.overlay');
 
 const closeMenu = ({
     target
 }) => {
 
-    if (!target.closest('.header-content__burger-menu, .header-content__burger')) {
+    if (!target.closest('.header-content__burger-menu, .header-content__burger, body')) {
         menuBtn.classList.remove('active');
-        menuContent.classList.remove('active-burger');
-
+        menuContent.classList.remove('active-burger'); 
         document.body.removeEventListener('click', closeMenu);
     }
 }
@@ -22,15 +22,12 @@ const closeMenu = ({
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('active');
     menuContent.classList.toggle('active-burger');
+    overlay.classList.toggle('overlay_opened');
     document.body.addEventListener('click', closeMenu);
 })
 
 
-$('#image').click(function() {
-    $('#foo').css({
-        'filter': 'blur(10px)'        
-    });
-});
+
 
 
 $(window).resize(function () {
@@ -56,3 +53,5 @@ $(window).resize(function () {
         $(".owl-carousel").trigger('destroy.owl.carousel')
     }
 });
+
+

@@ -153,7 +153,6 @@
   }
   .work-wrapper__block-get {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
     margin-top: 20px;
@@ -211,7 +210,7 @@
     border-radius: 5px;
     overflow: hidden;
     transform: translateX(-100%);
-    z-index: 5;
+    z-index: 1000;
   }
 
   .header-content__burger span {
@@ -267,7 +266,7 @@
     padding: 20px 15px;
     background-color: #ffffff;
     transition: all 0.6s;
-    z-index: 4;
+    z-index: 999;
     box-shadow: 0 0 100vw transparent;
   }
 
@@ -434,7 +433,33 @@
   }
 }
 
+@media only screen and (max-width: 610px) {
+  .work-wrapper__block-get {
+    height: 120px;
+    margin-top: 20px;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .work-wrapper__block-descr {
+    width: 199px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+
 @media only screen and (max-width: 590px) {
+  .document-block__option {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .document-block__requirements {
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .manager {
     margin-left: -15px;
     margin-right: -15px;
@@ -442,6 +467,7 @@
     height: 800px;
     top: 360px;
   }
+  
   .registration {
     min-height: 1150px;
   }
@@ -507,6 +533,32 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .document-block__requirements {
+    max-width: 345px;    
+  }
+
+  .document-block__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  .document-block__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .document-block__docs {
+    margin-top: 20px;
+  }
+
+  .document-block__docs-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
   .manager {
     top: 395px;
   }
@@ -530,6 +582,140 @@
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /* */
+@media only screen and (max-width: 375px) {  
+  .leasing-wrapper__title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+  }
+  
+  .leasing-wrapper__descr p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .work {
+    margin-top: 50px;
+  }
+
+  .work-wrapper__title p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+  }
+  
+  .work-wrapper__descr p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .work-wrapper__subtitle {
+    margin-top: 30px;
+  }
+
+  .work-wrapper__subtitle p {    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .work-wrapper__block-get {
+    height: 120px;
+    margin-top: 20px;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  .work-wrapper__block-descr {
+    width: 199px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .condition-wrapper__title {
+    margin-top: 50px;
+  }
+
+  .condition-wrapper__title p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .condition-wrapper__block {
+    width: 375px;    
+    margin-top: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+
+  .condition-wrapper__block-card {
+    width: 163px;
+    min-height: 128px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .condition-wrapper__block-card:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .condition-wrapper__block-card:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .condition-wrapper__block-descr {
+    width: 163px;
+    height: 48px;
+  }
+
+  .condition-wrapper__form {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .condition-wrapper__form-input {
+    width: 100%;    
+  }
+
+  .condition-wrapper__form-input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .document {
+    margin-top: 50px;
+  }
+
+  .document-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0;
+  }
+
+  .document-block__option {
+    margin-top: 20px;
+  }
+  
+  .company-title {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;    
+  }
+
+  .company-block {
+    margin-top: 30px;
+  }
 }
