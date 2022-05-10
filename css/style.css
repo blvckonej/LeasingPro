@@ -29,6 +29,7 @@ header {
     pointer-events: none;
     backdrop-filter: blur(4px);
     z-index: 10;
+    transition: all .3s;
 }
 
 .overlay_opened {

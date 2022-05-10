@@ -213,6 +213,11 @@
     z-index: 1000;
   }
 
+  .header-content__burger.active{
+    position: fixed !important;
+    right: 15px;
+ }
+
   .header-content__burger span {
     width: 30px;
     height: 2px;
@@ -458,6 +463,10 @@
   .document-block__requirements {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .document-block__docs {
+    margin-top: 20px;
   }
 
   .manager {
